@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-color: ivory;
+    font-family: montserrat;
+}
+
+*{
+    margin: 0px;
+    padding: 0%;
+  
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 55px;
+    gap: 450%;
+}
+.logo{
+    width: 130px;
+    height: auto;
+    margin-left: 30px;
+}
+
+/* The box wrapping the trigger and the menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 40px;
+
+}
+
+
+.dropdown-trigger {
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 10px;
+  right: 0px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  margin: 5px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*final cabeçalho*/
+.imgd{
+    width: 300px;
+    height: auto;
+}
+.organizar{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-self: center;
+}
+
+.disco{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+/*links externos*/
+
+.linksexternos{
+    display: flex;
+    flex-direction: row;
+    justify-self: left;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    width: 99.2%;
+    height: 45px;
+    padding: 5px;
+}
+
+/*INTEGRANTES*/
+.imgi{
+    width: 220px;
+    height: auto;    
+}
+.organizar-integrantes{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    
+}
+
+.integrante1{
+    position: absolute;
+    top: 35%;
+    left: 10px;
+}
+
+.integrante2{
+    position: absolute;
+    top: 40%;
+    left: 250px;
+}
+
+.integrante3{
+    position: absolute;
+    top: 35%;
+    left: 490px;
+}
+
+.integrante4{
+    position: absolute;
+    top: 40%;
+    left: 730px;
+}
+
+.integrante5{
+    position: absolute;
+    left: 970px;
+    top: 35%;
+}
+
+/* NOMES DOS INTEGRANTES */
+
+.integrante1 p,
+.integrante2 p,
+.integrante3 p,
+.integrante4 p,
+.integrante5 p {
+    position: absolute;
+    background-color: black;
+    color: #b8b8b8;
+    width: 200px;
+    height: 80px;
+    bottom: -40px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
